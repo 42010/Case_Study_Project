@@ -1,0 +1,103 @@
+<html>
+
+<head>
+  <title>Real Time Image Identification App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.jpeg">
+  <center>
+    <h1 class="btn btn-danger Heading">GoogleLens VS MobileNet</h1>
+  <br>
+  <br>
+  <br>
+  <ol>
+    <div class="test1">
+      <li>
+        <b>Test Image - </b><img src="waterbottles_test1.jpeg" class="img-responsive TEST1IMAGE">
+      </li>
+      <h5>Output on <b>Google Lens</b> -
+         <span>WaterBottles</span>
+      </h5>
+      <br>
+      <h5>Output on <b>MobileNet</b> -
+        <span>WaterBottles</span>
+     </h5>
+
+      <div class="mini result">
+        <h4>Result - </h4>
+        <h4>Both are TIE</h4>
+      </div>
+    </div>
+</ol>
+<br>
+<hr>
+<br>
+<ol>
+  <div class="test2">
+    <li>
+      <b>Test Image - </b><img src="Iphone_test.png" class="img-responsive TEST1IMAGE">
+    </li>
+    <h5>Output on <b>Google Lens</b> -
+       <span>Iphone</span>
+    </h5>
+    <br>
+    <h5>Output on <b>MobileNet</b> -
+      <span>Mobile Phone</span>
+   </h5>
+
+    <div class="mini result">
+      <h4>Result - </h4>
+      <h4>GoogleLens Is More Accurate</h4>
+    </div>
+  </div>
+</ol>
+<br>
+<hr>
+<br>
+<ol>
+  <div class="test3">
+    <li>
+      <b>Test Image - </b><img src="HeadphonesTest.jpeg" class="img-responsive TEST1IMAGE">
+    </li>
+    <h5>Output on <b>Google Lens</b> -
+       <span>HeadPhones</span>
+    </h5>
+    <br>
+    <h5>Output on <b>MobileNet</b> -
+      <span>Airpods, Earphones</span>
+   </h5>
+
+    <div class="mini result">
+      <h4>Result - </h4>
+      <h4>GoogleLens Is More Accurate</h4>
+    </div>
+  </div>
+</ol>
+<hr>
+  </center>
+  <br>
+  <center>
+  <b class="btn btn-danger">What to Use?</b>
+  <br>
+  <h1>GOOGLE LENS</h1>
+  </center>
+  <br>
+  <br>
+  <br>
+  <div class="copy_right_footer"></div>
+  Copyrighted® By Tejash Bhola
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
